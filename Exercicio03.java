@@ -8,7 +8,7 @@ public class Exercicio03 {
 		int A, B, C, D, diferenca;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite quatros números (A,B,C,D),separados por vírgula, onde a diferença será calculada pela múltiplicação de A*B será subtraído de C*D.");
+		System.out.println("Digite quatros números (A,B,C,D),separados por vírgula, para realizar o cálculo da formula (A*B-C*D");
 		String input = sc.nextLine();
 		String[] parts = input.split(",");
 		
