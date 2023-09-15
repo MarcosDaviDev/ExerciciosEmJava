@@ -10,15 +10,15 @@ public class AreaCirculo {
         double R, A, pi = 3.14159;
         
         // Entrada
-        System.out.println("Digite o raio do círculo no formato <00.0> para calcular pela fórmula A= " + pi + " * R²");
+        System.out.println("Digite o raio do cÃ­rculo no formato <00.0> para calcular pela fÃ³rmula A = pi * RÂ²");
         String input = sc.nextLine();
         
         R = Double.parseDouble(input);
         
         A = pi * Math.pow(R, 2);
 
-        // Saída
-        System.out.printf("A área do círculo é: %.4f%n", A);
+        // SaÃ­da
+        System.out.printf("A Ã¡rea do cÃ­rculo Ã©: %.4f%n", A);
         
         
         sc.close();
