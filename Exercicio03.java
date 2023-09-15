@@ -8,12 +8,12 @@ public class Exercicio03 {
 		int A, B, C, D, diferenca;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite quatros números (A,B,C,D),separados por vírgula, onde a diferença será calculada pela múltiplicação de A*B será subtraído de C*D.");
+		System.out.println("Digite quatros nÃºmeros (A,B,C,D),separados por vÃ­rgula, onde a diferenÃ§a serÃ¡ calculada pela mÃºltiplicaÃ§Ã£o de A*B serÃ¡ subtraÃ­do de C*D.");
 		String input = sc.nextLine();
 		String[] parts = input.split(",");
 		
 		if(parts.length !=4){
-			System.out.println("Entrada inválida. Digite exatemente dois números inteiros separados por vírgula");
+			System.out.println("Entrada invÃ¡lida. Digite os quatros nÃºmeros inteiros separados por vÃ­rgula");
 			sc.close();
 			return;
 		}
@@ -24,13 +24,13 @@ public class Exercicio03 {
 			C = Integer.parseInt(parts[2].trim());
 			D = Integer.parseInt(parts[3].trim());
 		}catch (NumberFormatException e) {
-			 System.out.println("Erro ao converter valores. Certifique-se de que os valores fornecidos são números válidos.");
+			 System.out.println("Erro ao converter valores. Certifique-se de que os valores fornecidos sÃ£o nÃºmeros vÃ¡lidos.");
 	            sc.close();
 	            return;
 		}
 		
 		diferenca = (A*B-C*D);
-		System.out.println("A diferença é: " + diferenca);
+		System.out.println("A diferenÃ§a Ã©: " + diferenca);
 		
 		sc.close();
 	}
